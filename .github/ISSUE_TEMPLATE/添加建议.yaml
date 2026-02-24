@@ -1,0 +1,29 @@
+name: 添加建议
+description: 对目前项目给一些建议
+title: "[feat]: "
+labels: '功能请求'
+body:
+- type: textarea
+  attributes:
+    label: "此功能需求是否与某个问题有关？请描述。"
+    description: "请清楚且简洁地说明目前存在的问题。例如：不给我下载链接"
+- type: textarea
+  attributes:
+    label: "请描述你希望的解决方案"
+    description: "请清楚且简洁地说明你希望实现的功能或预期效果。"
+- type: textarea
+  attributes:
+    label: "请描述你曾考虑过的替代方案"
+    description: "请清楚且简洁地说明你曾考虑过的其他解决方法或替代功能。"
+- type: textarea
+  attributes:
+    label: "其他补充说明"
+    description: "请在此补充任何相关背景资讯、使用情境或截图等。"
+- type: checkboxes
+  attributes:
+    label: "我确认没有重复的issue"
+    options:
+      - label: "我确认没有重复的issue."
+        required: true
+  validations:
+    required: true
