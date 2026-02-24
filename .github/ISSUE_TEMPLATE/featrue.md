@@ -1,5 +1,5 @@
 ---
-name: 添加建议
+name: 请求新功能
 about: 对目前项目给一些建议
 title: "[feat]: "
 labels: '功能请求'
