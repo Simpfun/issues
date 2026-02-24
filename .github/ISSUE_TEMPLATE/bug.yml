@@ -2,7 +2,7 @@ name: 我发现了一个BUG！
 
 description: "反馈一个问题，若问题有多个请依次开启，重复反馈将关闭，不提供解决非项目问题"
 
-labels: ["bug"]
+labels: ["bug", "等待确认"]
 
 title: "[BUG]: "
 

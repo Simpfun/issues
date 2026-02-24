@@ -1,7 +1,7 @@
 name: 添加建议
 description: 对目前项目给一些建议
 title: "[feat]: "
-labels: '功能请求'
+labels: ["功能请求", "等待确认"]
 body:
 - type: textarea
   attributes:
