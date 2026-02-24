@@ -2,7 +2,7 @@ name: 我发现了一个BUG！
 
 description: "反馈一个问题，若问题有多个请依次开启，重复反馈将关闭，不提供解决非项目问题"
 
-labels: [ "type: bug" ]
+labels: ["type: bug"]
 
 body:
   - type: input
@@ -12,8 +12,8 @@ body:
     validations:
       required: true
 
-- type: dropdown
-    id: browsers
+  - type: dropdown
+    id: browser
     attributes:
       label: 出现问题时所使用的浏览器
       multiple: true
@@ -25,9 +25,8 @@ body:
         - 系统浏览器
         - Via
 
-  
-- type: dropdown
-    id: browsers
+  - type: dropdown
+    id: device
     attributes:
       label: 出现问题时所使用的设备
       multiple: true
@@ -36,13 +35,14 @@ body:
         - 平板
         - 电脑
 
-- type: textarea
+  - type: textarea
     id: what-happened
     attributes:
       label: 出现了什么问题？
       description: 顺便告诉我们，您期望的行为是怎样的？推荐配上图片有助于定位问题。
     validations:
       required: true
+
   - type: textarea
     id: reproduction
     attributes:
