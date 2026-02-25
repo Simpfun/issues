@@ -39,6 +39,7 @@ body:
         - Windows
         - iOS/iPadOS
         - macOS
+        - Linux（各发行版的桌面环境）
     validations:
       required: true
 
