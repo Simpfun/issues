@@ -7,19 +7,21 @@ labels: ["bug", "等待确认"]
 title: "[BUG]: "
 
 body:
+
+  - type: checkboxes
+    id: no-duplicate-issue
+    attributes:
+      label: "我确认没有重复的issue"
+      options:
+      - label: "我确认没有重复的issue."
+        required: true
+
   - type: input
     attributes:
       label: 问题页面
       description: 我们需要你提供当前页面的链接，你可以在搜索栏中Ctrl + A 再Ctrl + C 复制粘贴到这里
     validations:
       required: true
-
-  - type: checkboxes
-    attributes:
-      label: "我确认没有重复的issue"
-      options:
-      - label: "我确认没有重复的issue."
-        required: true
 
   - type: input
     id: browser

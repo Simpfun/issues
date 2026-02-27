@@ -5,6 +5,7 @@ labels: ["功能请求", "等待确认"]
 
 body:
 - type: checkboxes
+  id: no-duplicate-issue
   attributes:
     label: "我确认没有重复的issue"
     options:
