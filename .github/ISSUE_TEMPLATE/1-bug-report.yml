@@ -55,6 +55,11 @@ body:
       description: 详细描述您出错前的操作步骤，推荐配上视频效果更好。
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: "其他补充说明"
+      description: "请在此补充任何相关背景资讯、使用情境或截图等。"
+
   - type: checkboxes
     id: no-duplicate-issue
     attributes:
@@ -67,7 +72,3 @@ body:
     attributes:
       label: 你的简幻欢账号UID
       description: 请填写你的简幻欢账号UID，如果此issue是有效且被采纳的，后续将根据此uid发放积分奖励
-  - type: textarea
-    attributes:
-      label: "其他补充说明"
-      description: "请在此补充任何相关背景资讯、使用情境或截图等。"
