@@ -63,7 +63,7 @@ body:
   - type: checkboxes
     id: no-duplicate-issue
     attributes:
-      label: "我确认没有重复的issue"
+      label: "我确认没有重复的 Issue。"
       options:
       - label: "我确认没有重复的issue."
         required: true
