@@ -1,4 +1,4 @@
-﻿name: Auto Close Beta Issues
+name: Auto Close Beta Issues
 
 on:
   issues:
@@ -16,10 +16,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const body = `请看#39
-
-> 检查最新版本
-> 公测版（https://beta.simpfun.cn/ ）不接受问题反馈，如在公测版遇到问题请在开发版（https://sfe.x.ahne.cn/ ）成功复现后再进行反馈。`;
+            const body = "请看#39\n\n> 检查最新版本\n> 公测版（https://beta.simpfun.cn/ ）不接受问题反馈，如在公测版遇到问题请在开发版（https://sfe.x.ahne.cn/ ）成功复现后再进行反馈。";
 
             await github.rest.issues.createComment({
               owner: context.repo.owner,
