@@ -66,6 +66,6 @@ body:
     id: useruid
     attributes:
       label: 你的简幻欢账号UID
-      description: 请填写你的简幻欢账号UID，如果此issue是有效且被采纳的，后续将根据此uid发放积分奖励。
+      description: 请填写你的简幻欢账号UID，如果此issue是有效且被采纳的，后续将根据此UID发放积分奖励。
     validations:
       required: false
